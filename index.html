@@ -15,12 +15,14 @@
   <link href="style-radio.css" type="text/css" rel="stylesheet" />
     <!--link rel="stylesheet" href="stylesheets/pygment_trac.css"-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <link rel="stylesheet" href="style-clock.css">
     
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body onLoad="initClock()">
     <div class="wrapper">
       <header>
         <h1>Веб - приложение: "IP - Радио hhcjs".</h1>
@@ -28,6 +30,17 @@
         <h2>Автор идеи: Берлин Андрей</h2>
         <br>
        <p><em>Я стремлюсь к созданию веб приложений, которые можно приминить к повседневной жизни.</em></p>
+ 
+<div id="timedate">
+    <a id="mon">Января</a>,
+    <a id="d">1</a>,
+    <a id="y">0</a><br />
+    <a id="h">12</a> :
+    <a id="m">00</a>:
+    <a id="s">00</a>:
+    <a id="mi">000</a>
+  </div>
+
         <!--p class="view"><a href="http://github.com/orderedlist/modernist">View the Project on GitHub <small>orderedlist/modernist</small></a></p>
         <ul>
           <li><a href="https://github.com/orderedlist/modernist/zipballmus/master">Download <strong>ZIP File</strong></a></li>
@@ -263,6 +276,8 @@ end</code></pre>
   
 </script>
 
+
+ <script  src="script-clock.js"></script>
   
   
   
