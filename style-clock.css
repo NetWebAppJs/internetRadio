@@ -1,0 +1,11 @@
+body {background-color:#69c8f7;}
+
+#timedate {
+  font: small lighter 23px/130% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  text-align:center;
+  width: 50%;
+  margin: 50px auto;
+  color:rgb(37,46,237);
+  border: 5px solid #ed1f24;
+  padding: 5px;
+}
