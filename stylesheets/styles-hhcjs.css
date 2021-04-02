@@ -114,6 +114,11 @@ header p.view a {
 header p.view small {
   font-weight: 400;
 }
+
+header div {
+text-align: center;
+}
+
 /*header ul {
   margin: 0;
   padding: 0;
