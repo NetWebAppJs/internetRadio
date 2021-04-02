@@ -1,6 +1,6 @@
 /*body {background-color:#69c8f7;}*/
 
-timedate, #mon, #d, #y, #m, #h, #s, #mi {
+#timedate, #mon, #d, #y, #m, #h, #s, #mi {
   font-family: "Times New Roman", Georgia, Serif;
   font-size: 22px;
   text-align:center;
