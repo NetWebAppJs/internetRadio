@@ -49,7 +49,7 @@ if (rad_stations[0][2]!=undefined){
 }
 
 
-var select = '<div style="color: '+g_text_color+';" onclick="return rad_show_stations();" id="rad_select" align="left"><div id="rad_stationname">' + '<img src="https://radiobells.com/stations/' + img +'_70.jpg" align="absmiddle" id="rad_select_main_image"><span id="rad_select_main_text">' + rad_stations[0][1] + '</span></div><div id="rad_dropdown"></div></div>';
+var select = '<div style="color: '+g_text_color+';" onclick="return rad_show_stations();" id="rad_select" align="left"><div id="rad_stationname">' + '<img src="https://radiobells.com/stations/' + img +'_70.jpg" align="absmiddle" id="rad_select_main_image"><span id="rad_select_main_text">' + rad_stations[0][1] + '</span></div><div id="rad_dropdown"> 🔽 плейлист </div></div>';
 	select += '<div id="rad_list" style="display: none;" align="left">';
 
 	for (var i=0; i<rad_stations.length; i++){
@@ -92,7 +92,7 @@ var g_rad_player_width = document.getElementById("rad_player").clientWidth;
 
 if (g_rad_player_width<=430){
     document.getElementById('rad_player').style.height = '100px';
-    document.getElementById('rad_block_logo').style.width = '100%';
+    document.getElementById('rad_block_logo').style.width = '150%';
     document.getElementById('rad_block_logo').style.borderTop = '1px solid #222';
     document.getElementById('rad_block_logo').style.marginLeft = '0px';
     document.getElementById('rad_block_logo').style.marginTop = '0px';
